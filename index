@@ -1,23 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Distillation Demo Videos</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 1050px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.4;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .card {
+      width: 300px;
+      text-align: center;
+    }
+    video {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Robot Distillation: Demo Videos</h1>
+  <h1>Distillation Demo Videos</h1>
+  <p style="text-align:center">
+    Rollouts from LIBERO task suites comparing different policies.
+  </p>
 
-  <p>These videos show trajectories from the teacher model and distilled BC policies.</p>
+  <!-- SPATIAL -->
+  <h2>LIBERO Spatial</h2>
+  <div class="grid">
+    <div class="card">
+      <p><strong>Demo 1</strong></p>
+      <video controls>
+        <source src="liberospatial_0.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="card">
+      <p><strong>Demo 2</strong></p>
+      <video controls>
+        <source src="liberospatial_1.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="card">
+      <p><strong>Demo 3</strong></p>
+      <video controls>
+        <source src="liberospatial_2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
 
-  <h2>Success Rollouts</h2>
-
-  <video width="480" controls>
-    <source src="rollout1.mp4" type="video/mp4">
-  </video>
-
-  <video width="480" controls>
-    <source src="rollout2.mp4" type="video/mp4">
-  </video>
-
-  <h2>More Coming Soon</h2>
-</body>
-</html>
+  <!-- OBJECT -->
+  <h2>LIBERO Object</h2>
+  <div class="grid">
+    <div class="card">
+      <p><strong>Demo 1</strong><
