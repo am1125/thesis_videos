@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Distillation Demo Videos</title>
+</head>
+<body>
+  <h1>Robot Distillation: Demo Videos</h1>
+
+  <p>These videos show trajectories from the teacher model and distilled BC policies.</p>
+
+  <h2>Success Rollouts</h2>
+
+  <video width="480" controls>
+    <source src="rollout1.mp4" type="video/mp4">
+  </video>
+
+  <video width="480" controls>
+    <source src="rollout2.mp4" type="video/mp4">
+  </video>
+
+  <h2>More Coming Soon</h2>
+</body>
+</html>
